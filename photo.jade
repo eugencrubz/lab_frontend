@@ -1,0 +1,32 @@
+﻿doctype html
+html
+  include head.jade
+  include mixins.jade
+  body
+    h1
+      b Личная страница (блог) ХЕК
+    header
+      nav
+        mixin list
+    section
+      header
+        h2 Фотоальбом
+      a(href='http://vkclub.su/_data/stickers/sparks/sticker_vk_sparks_007.png')
+        img(src='/img/1.png', width='200', height='200', alt='Я')
+      p Радуга-дуга. Размер: 352х512 пикселей
+      br
+      a(href='https://ru.telegram-store.com/wp-content/uploads/2017/02/P2image_203.png')
+        img(src='/img/2.png', width='200', height='200', alt='Я')
+      p Дуга-радуга. Размер: 192х192 пикселей
+      br
+      a(href='http://vkclub.su/_data/stickers/deer/sticker_vk_deer_000.png')
+        img(src='/img/3.png', width='200', height='200', alt='Я')
+      p Л-лось. Размер: 512х512 пикселей
+      br
+      a(href='http://vkclub.su/_data/stickers/senyalove/sticker_vk_senyalove_007.png')
+        img(src='/img/4.png', width='200', height='200', alt='Я')
+      p Опять радуга. Размер: 512х512 пикселей
+      br
+      p
+      block footer
+      include footer.jade

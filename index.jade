@@ -1,0 +1,26 @@
+﻿doctype html
+html
+  include head.jade
+  include mixins.jade
+  body
+    h1
+      b Личная страница (блог) ХЕК
+    header
+      nav
+        mixin list
+    section
+      article
+        header
+          h2 Моя автобиография
+          img(src='http://vhod.cc/img/misc/vk-stiker-2.png', alt='Я')
+          p Подпись к фото
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium libero eu vestibulum placerat. Suspendisse potenti. Fusce id pellentesque justo. Suspendisse bibendum massa nec felis accumsan, id accumsan mauris dignissim. Donec ac odio nibh. Pellentesque ut odio lacinia quam viverra tincidunt. Nam vitae fermentum lectus. Aliquam vel consectetur mauris. Nullam erat turpis, aliquet sed sem in, scelerisque facilisis ex. Cras vel finibus nulla, eu maximus purus. Praesent consectetur ex eros, non feugiat erat ullamcorper id.
+        p
+          | Nam a hendrerit velit. Nulla iaculis tellus viverra erat rutrum imperdiet. Suspendisse consectetur rhoncus ipsum non tincidunt. Curabitur eu faucibus ligula, eget sollicitudin dolor. Aliquam rutrum sollicitudin enim, ut maximus ex faucibus sit amet. Nulla porta lobortis sem id volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis lobortis neque. Donec pharetra pretium ante, at facilisis mi efficitur vel. Donec posuere, nisi quis vulputate ultricies, tellus ipsum aliquam lectus, et malesuada ex mi a diam. Duis non congue risus. Praesent non malesuada enim. Maecenas eu rhoncus neque.
+      article
+        h2 Мои увлечения
+        p ...
+      block footer
+        include footer.jade
+    

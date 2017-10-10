@@ -1,0 +1,16 @@
+﻿doctype html
+html
+  include head.jade
+  include mixins.jade
+  body
+    h1
+      b Личная страница (блог) ХЕК
+    header
+      nav
+       mixin list
+    section
+      h2
+        b Мое видео
+      iframe(width='560', height='315', src='https://www.youtube.com/embed/OVX2x6zZuw4', frameborder='0', allowfullscreen='')
+      block footer
+      include footer.jade
