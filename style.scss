@@ -1,0 +1,130 @@
+//colors
+$color_granny_smith_apple_approx: #92e792;
+$color_forest_green_approx: #12b812;
+$black:  black;
+$white: #ffffff;
+$color_san_felix_approx: #036303;
+
+//fonts
+$font_0: Ubuntu;
+$font_1: sans-serif;
+$font_2: Calibri;
+
+body {
+	background: linear-gradient($color_granny_smith_apple_approx, $color_forest_green_approx);
+	font-family: $font_0, $font_1;
+}
+ul {
+	//padding-left: 2%;
+	list-style-type: circle;
+	font-size: 110%;
+}
+ol {
+	padding-left: 2%;
+	list-style-type: circle;
+	font-size: 110%;
+	text-align: center;
+}
+table {
+	border: 2px solid $black;
+	text-align: center;
+}
+.shedule {
+	border: 1px;
+	background: $white;
+}
+p {
+	text-align: center;
+}
+td {
+	padding: 0.5%;
+	border: 2px solid $black;
+}
+th {
+	padding: 0.5%;
+	border: 2px solid $black;
+}
+A {
+	padding: 0.5%;
+}
+div {
+	padding: 0.5%;
+}
+html {
+	background: $white;
+}
+P {
+	padding: 0.5%;
+}
+figcaption {
+	padding: 0.5%;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	align: center;
+}
+.main {
+	float: left;
+}
+.text {
+	font-size: 25px;
+	text-align: left;
+}
+H1 {
+	padding: 1%;
+	font-size: 170%;
+	font-weight: bold;
+	color: $color_san_felix_approx;
+	text-align: center;
+}
+H2 {
+	padding: 1%;
+	font-size: 150%;
+	font-weight: bold;
+	color: $color_san_felix_approx;
+	text-align: center;
+}
+H3 {
+	padding: 1%;
+	font-size: 120%;
+	font-weight: bold;
+	color: $color_san_felix_approx;
+	text-align: center;
+}
+footer {
+	text-align: center;
+	padding-top: 5%;
+}
+.up {
+	position: absolute;
+	right: 0;
+	height: 30px;
+}
+.navigation {
+	list-style: none;
+	display: flex;
+	li {
+		float: left;
+		margin-right: 1px;
+		font-family: $font_2;
+		font-size: 18px;
+		flex-basis: auto;
+		flex-grow: 1;
+		a {
+			display: block;
+			padding: 15px 20px;
+			//background: $color_forest_green_approx;
+			background: linear-gradient($color_granny_smith_apple_approx, $color_forest_green_approx, $color_san_felix_approx);
+			color: $black;
+			text-align: center;
+			text-decoration: none;
+			position: relative;
+			font-weight: bold;
+			&:hover {
+				background: $color_forest_green_approx;
+				color: $color_granny_smith_apple_approx;
+			}
+		}
+	}
+}
