@@ -1,0 +1,44 @@
+﻿@media screen and (min-width: 980px) {
+text{
+   width: 90%;
+   margin: center; 
+}
+}  
+@media screen and (max-width: 796px) {
+
+
+/* Задаем ширину меню */
+.navigation{
+    width:210px;
+    display: block;
+}
+/* Стили для наших пунктов меню */
+.navigation ul{
+    list-style:none;
+}
+.navigation li{
+    list-style:none;
+    display:block;
+    line-height:32px;
+    //height:32px;
+    //margin:7px 0;
+    width:300px;
+}
+.navigation li a{
+    display:block;
+    height:33px;
+    text-transform:uppercase;
+    font-size:16px;
+    //font-weight:bold;
+    line-height:32px;
+   // padding:0 0 0 25px;
+    text-decoration:none;
+    //color:#006A35;
+    //background: #95DF8E;
+    //border:solid 1px #006A35;
+   // -moz-border-radius:10px;
+   // -webkit-border-radius:10px;
+   // border-radius:10px;
+}
+ 
+}
